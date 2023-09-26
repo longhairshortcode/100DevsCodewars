@@ -19,5 +19,7 @@ function stray(numbers) {
    }
 
 
+// someone else's answer I get now
 
+function strayDos = nums => nums.reduce((a, b) => a ^ b);
 
