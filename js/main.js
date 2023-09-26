@@ -23,3 +23,14 @@ function stray(numbers) {
 
 function strayDos = nums => nums.reduce((a, b) => a ^ b);
 
+
+//Class 36 - 9/26/23 
+
+//Task
+
+//Answer
+
+function twiceAsOld(dad, son){
+    return Math.abs(dad - son * 2);
+}
+
