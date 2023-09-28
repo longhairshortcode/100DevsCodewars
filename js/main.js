@@ -97,13 +97,13 @@ let isItNeg = num => num < 0 ? num : num * -1
 //Class 36 - 9/27/23 
 //Task (8kyu)
 
-Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
+// Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
 
-For example:
+// For example:
 
-a = 1
-b = 4
---> [1, 2, 3, 4]
+// a = 1
+// b = 4
+// --> [1, 2, 3, 4]
 
 
 //Answer
@@ -113,4 +113,21 @@ function between(a, b) {
   for (let i = a; i <= b; i++){
   theArr.push(i)
 } return theArr;
+}
+
+
+
+//Task
+// Build a function that returns an array of integers from n to 1 where n>0.
+
+// Example : n=5 --> [5,4,3,2,1]
+
+//Answer
+
+const reverseSeq = n => {
+  let myArr = []
+  for (let i = n; i > 0; i--){
+    myArr.push(i)
+  }
+  return myArr;
 }
