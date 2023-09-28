@@ -89,3 +89,28 @@ function testEven(n) {
 //Answer:
 
 let isItNeg = num => num < 0 ? num : num * -1
+
+
+
+
+
+//Class 36 - 9/27/23 
+//Task (8kyu)
+
+Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
+
+For example:
+
+a = 1
+b = 4
+--> [1, 2, 3, 4]
+
+
+//Answer
+
+function between(a, b) {
+  let theArr = []
+  for (let i = a; i <= b; i++){
+  theArr.push(i)
+} return theArr;
+}
