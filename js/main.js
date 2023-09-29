@@ -155,3 +155,9 @@ function lovefunc(flower1, flower2){
     return false;
   }
   }
+
+  // someone else's code that I get:
+
+  function lovefunc(flower1, flower2){
+    return flower1 % 2 !== flower2 % 2;
+  }
