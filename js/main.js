@@ -158,8 +158,8 @@ function lovefunc(flower1, flower2){
 
   // someone else's code that I get:
 
-  function lovefunc(flower, flower2){
-    return flower % 2 !== flower2 % 2;
+  function lovefunc(flower, flowerSecond){
+    return flower % 2 !== flowerSecond % 2;
   }
 
   // s1 elses that  I get, very creative!
