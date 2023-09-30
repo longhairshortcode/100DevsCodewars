@@ -163,7 +163,7 @@ function lovefunc(flower1, flower2){
   }
 
   // s1 elses that  I get, very creative!
-  function lovefunc(flower1, flower2){
-    return (flower1 + flower2) % 2 === 1
+  function lovefunc(flower, flower2){
+    return (flower + flower2) % 2 === 1
   }
 
