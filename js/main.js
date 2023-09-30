@@ -144,7 +144,7 @@ const reverseSeq = n => {
 //Write a function that will take the number of petals of each 
 //flower and return true if they are in love and false if they aren't.
 
-//my answer
+//myanswer
 
 function lovefunc(flower1, flower2){
   if (flower1 % 2 === 0 && flower2 % 2 !== 0){
@@ -158,11 +158,12 @@ function lovefunc(flower1, flower2){
 
   // someone else's code that I get:
 
-  function lovefunc(flower1, flower2){
-    return flower1 % 2 !== flower2 % 2;
+  function lovefunc(flower, flower2){
+    return flower % 2 !== flower2 % 2;
   }
 
   // s1 elses that  I get, very creative!
   function lovefunc(flower1, flower2){
     return (flower1 + flower2) % 2 === 1
   }
+
