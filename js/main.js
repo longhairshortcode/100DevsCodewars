@@ -167,3 +167,21 @@ function lovefunc(flower1, flower2){
     return (flower + flower2) % 2 === 1
   }
 
+  //Class 38 10/2
+
+  //Task:
+//   Clock shows h hours, m minutes and s seconds after midnight.
+
+// Your task is to write a function which returns the time since midnight in milliseconds.
+
+
+//Answer:
+
+function past(h, m, s){
+  let result = 0
+  let hToMi = h * 60 * 60000
+  let mToMi = m * 60000
+  let sToMi = s * 1000
+  results = hToMi + mToMi + sToMi
+    return results 
+  }
