@@ -202,3 +202,15 @@ function isPalidrome(x){
   let xReverse = xLower.split("").reverse().join("")
   return xLower === xReverse
 }
+
+
+//Class 38 10/3
+
+//Task:
+//Create a function that takes 2 integers in form of a string as an input, 
+//and outputs the sum (also as a string):
+
+//Answer:
+function sumStr(a,b) {
+  return (Number(a) + Number(b)).toString()
+  }
