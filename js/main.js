@@ -185,3 +185,20 @@ function past(h, m, s){
   results = hToMi + mToMi + sToMi
     return results 
   }
+
+
+//Class 38 10/3
+
+//Task:
+// Write a function that checks if a given string (case insensitive) is a palindrome.
+
+// A palindrome is a word, number, phrase, or other sequence of symbols that reads the 
+
+// same backwards as forwards, such as madam or racecar.
+//Answer:
+
+function isPalidrome(x){
+  let xLower = x.toLowerCase()
+  let xReverse = xLower.split("").reverse().join("")
+  return xLower === xReverse
+}
