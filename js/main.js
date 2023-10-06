@@ -246,4 +246,12 @@ function disemvowel(str) {
   return splitAndFilter.join('')
  }
 
+//Class 38 10/6 friday
 
+//Redo Answer from yesterday's last one:
+function disemvowel(str) {
+  let vowels = 'AEIOUaeiou'
+  let strArr = str.split('')
+  let result = strArr.filter(char => vowels.indexOf(char) === -1)
+  return result.join('')
+}
