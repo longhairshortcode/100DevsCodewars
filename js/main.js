@@ -226,7 +226,24 @@ function sumStr(a,b) {
 //new string with all vowels removed. For example, the string "This website 
 //is for losers LOL!" would become "Ths wbst s fr lsrs LL!". Note: for this kata y isn't considered a vowel.
 
-//Answer:
+// My Answer:
 function disemvowel(str) {
   return str.replace(/[aeiouAEIOU]/g, '')
 }
+
+//Other answer from ChatGPT that I studied / get
+function disemvowel(str) {
+  let vowels = 'aeiouAEIOU'
+  let splitStr = str.split('')
+  let filteredStr = splitStr.filter(char => vowels.indexOf(char) === -1)
+  return filteredStr.join('')
+ }
+
+ //edit from above
+function disemvowel(str) {
+  let vowels = 'aeiouAEIOU'
+  let splitAnddFilter = str.split('').filter(char => vowels.indexOf(char) === -1)
+  return splitAndFilter.join('')
+ }
+
+
