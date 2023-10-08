@@ -310,3 +310,23 @@ function finalGrade (exam, projects) {
    }
   return final
 }
+
+
+//Class 38 10/7 CW
+
+//Task
+
+//Answer:
+function getGrade (s1, s2, s3) {
+  let avg = (s1 + s2 + s3) / 3
+    if (avg >= 90 && avg <= 100){
+      return `{avg} A`;
+    } else if (avg >= 80 && avg < 90){
+      return `{avg} B`;
+    } else if (avg >= 70 && avg < 80){
+      return `{avg} C`;
+    } else if (avg >= 60 && avg < 70){
+      return `{avg} A`;
+    } else if (avg >= 0 && avg < 60){
+      return `{avg} A`;
+  }
