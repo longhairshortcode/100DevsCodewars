@@ -367,4 +367,11 @@ const rps = (p1, p2) => {
   }else{
     return "Player 2 won!"
   } 
-  }; 
+  };
+  
+
+// second for 39 10/9
+//task was written poorly so just answer
+function square(num) {
+  return num * num;
+  }
