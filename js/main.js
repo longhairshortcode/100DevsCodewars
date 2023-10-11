@@ -390,3 +390,12 @@ function square(num) {
     // Use the filter method to filter out non-number elements
     return l.filter(element => typeof element === 'number');
   }
+
+  //task class 40 10/10
+  //Make a function that will return a greeting statement that uses an input; 
+  //your program should return, "Hello, <name> how are you doing today?".
+
+  //answer
+  function greet(name){
+    return `Hello, ${name} how are you doing today?`
+    }
