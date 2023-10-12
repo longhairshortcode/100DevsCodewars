@@ -443,3 +443,12 @@ function powersOfTwo(n){
     powers.push(2 ** i)
     }return powers;
   }
+
+
+  //task class 40 10/11
+  //Write a function that removes the spaces from the string, then return the resultant string.
+
+  //answer:
+  function noSpace(x){
+    return x.replace(/\s/g, '');
+    }
