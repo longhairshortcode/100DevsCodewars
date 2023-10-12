@@ -474,3 +474,16 @@ for (let i = 0; i < x.length; i++){
 function fakeBin(x) {
   return x.split('').map(n => n < 5 ? 0 : 1).join('');
 }
+
+//class 44 10/12
+//task 
+//Complete the solution so that it returns true if the first argument(string) passed in 
+//ends with the 2nd argument (also a string).
+//Examples:
+// solution('abc', 'bc') // returns true
+// solution('abc', 'd') // returns false
+
+//answer
+function solution(str, ending){
+  return str.endsWith(ending);
+}
