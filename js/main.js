@@ -469,3 +469,8 @@ for (let i = 0; i < x.length; i++){
   } 
 }return results;
 }
+
+//other answer I want to learn:
+function fakeBin(x) {
+  return x.split('').map(n => n < 5 ? 0 : 1).join('');
+}
