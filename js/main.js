@@ -429,3 +429,17 @@ function hoopCount (n) {
 function hoopCount(n) {
   return n < 10 ? "Keep at it until you get it." : "Great, now move on to tricks."
 }
+
+
+//task class 40 10/11
+//Complete the function that takes a non-negative integer n as input, 
+//and returns a list of all the powers of 2 with the exponent ranging 
+//from 0 to n ( inclusive ).
+
+//answer
+function powersOfTwo(n){
+  let powers = []
+  for (let i = 0; i <= n; i++){
+    powers.push(2 ** i)
+    }return powers;
+  }
