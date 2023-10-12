@@ -420,3 +420,12 @@ function hoopCount (n) {
   function hoopCount (n) {
     return (n < 10) ? 'Keep at it until you get it' : 'Great, now move on to tricks';
   }
+
+  // class 44 10/11
+
+  //task from right before this
+
+//answer did it again but from memory
+function hoopCount(n) {
+  return n < 10 ? "Keep at it until you get it." : "Great, now move on to tricks."
+}
