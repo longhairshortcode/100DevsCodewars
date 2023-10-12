@@ -470,7 +470,11 @@ for (let i = 0; i < x.length; i++){
 }return results;
 }
 
-//other answer I want to learn:
+//Given a string of digits, you should replace any digit below 5 
+//with '0' and any digit 5 and above with '1'. Return the resulting string.
+//Note: input will never be an empty string
+
+//other answer I learned:
 function fakeBin(x) {
   return x.split('').map(n => n < 5 ? 0 : 1).join('');
 }
@@ -487,3 +491,19 @@ function fakeBin(x) {
 function solution(str, ending){
   return str.endsWith(ending);
 }
+
+//task
+//Write a function that takes an array of numbers and returns 
+//the sum of the numbers. The numbers can be negative or non-integer. 
+//If the array does not contain any numbers then you should return 0.
+
+//answer
+// Sum Numbers
+function sum (numbers) {
+  if (numbers.length === 0){
+    return 0
+  }
+ 
+ let sum = numbers.reduce((acc, cur) => acc + cur, 0)
+ return sum;
+};
