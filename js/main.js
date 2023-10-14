@@ -579,6 +579,7 @@ function invert(array) {
   if (array.length === 0){
     return [];
   }
-  
+  const inverseArr = array.map(num => -num)
+  return inverseArr;
 }
 
