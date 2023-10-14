@@ -564,3 +564,9 @@ function removeSmallest(numbers) {
   let indexOfMin = numbers.indexOf(Math.min(...numbers));
   return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)];
 }
+
+//trying above on my own for practice and I get it / could do it on my own
+function removeSmallest(numbers){
+  let indexOfMin = numbers.indexOf(Math.min(...numbers));
+  return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)]
+}
