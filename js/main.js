@@ -591,3 +591,11 @@ function reverseList(list) {
   let rev = list.reverse();
     return rev;
   }
+
+  //another answer from cw that I get and practiced
+  function reverseList(list) {
+    let revList = [];
+      for (let i = list.length - 1; i >= 0; i--){
+      revList.push(list[i]);    
+      }return revList;
+    }
