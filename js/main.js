@@ -583,3 +583,11 @@ function invert(array) {
   return inverseArr;
 }
 
+// task 1st for 10/14
+//In this kata you will create a function that takes in a list and returns a list with the reverse order.
+
+//answer:
+function reverseList(list) {
+  let rev = list.reverse();
+    return rev;
+  }
