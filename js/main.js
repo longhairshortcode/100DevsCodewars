@@ -541,7 +541,7 @@ function removeSmallest(numbers) {
   return result;
 }
 
-//Rewrite it for practice:
+//Rewrite it for practice, and did it all on my own basically:
 
 function removeSmallest(numbers){
   if (numbers.length === 0){
@@ -558,3 +558,9 @@ function removeSmallest(numbers){
   } const newNums = [...numbers.slice(0, minIndex), ...numbers.slice(minIndex + 1)]
   return newNums;
 } 
+
+// another solution from CW that I need to learn:
+function removeSmallest(numbers) {
+  let indexOfMin = numbers.indexOf(Math.min(...numbers));
+  return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)];
+}
