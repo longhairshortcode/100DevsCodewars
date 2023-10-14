@@ -540,3 +540,21 @@ function removeSmallest(numbers) {
   const result = [...numbers.slice(0, minIndex), ...numbers.slice(minIndex + 1)];
   return result;
 }
+
+//Rewrite it for practice:
+
+function removeSmallest(numbers){
+  if (numbers.length === 0){
+    return [];
+  }
+
+  let min = numbers[0]
+  let minIndex = 0
+  for (let i = 1; i < numbers.length; i++){
+    if (numbers[i] < min){
+      min = numbers[i]
+      minIndex = i
+    }
+  } const newNums = [...numbers.slice(0, minIndex), ...numbers.slice(minIndex + 1)]
+  return newNums;
+} 
