@@ -570,3 +570,15 @@ function removeSmallest(numbers){
   let indexOfMin = numbers.indexOf(Math.min(...numbers));
   return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)]
 }
+
+
+//task 3rd for 10/13
+
+// answer
+function invert(array) {
+  if (array.length === 0){
+    return [];
+  }
+  
+}
+
