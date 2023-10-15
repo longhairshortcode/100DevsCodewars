@@ -627,3 +627,18 @@ function reverseList(list) {
         return d * 40;
       }
     }
+
+    //class 44 10/15 
+    //task 
+    //Write a function which calculates the average of the numbers in 
+    //a given list. Note: Empty arrays should return 0.
+
+    //answer 
+    function findAverage(array) {
+      let arrayLen = array.length
+      if (arrayLen === 0){
+        return 0;
+      } else{
+      return array.reduce((acc, cur) => acc + cur, 0) / arrayLen;
+    }
+      }
