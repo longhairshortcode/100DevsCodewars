@@ -642,3 +642,27 @@ function reverseList(list) {
       return array.reduce((acc, cur) => acc + cur, 0) / arrayLen;
     }
       }
+
+  // class 44 10/15
+  //task 
+  //Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
+  //The output should be two capital letters with a dot separating them.
+  //It should look like this:
+  //Sam Harris => S.H 
+  //patrick feeney => P.F
+
+  //answer
+  function abbrevName(name){
+  let nameParts = name.split(' ');
+  let firstNameInitial = nameParts[0][0];
+  let lastNameInitial = nameParts[1][0];
+    return `${firstNameInitial}.${lastNameInitial}`.toUpperCase();
+  } 
+
+  //redo the answer since I had to ask chatGPT
+  function abbrevName(name){
+    let nameParts = name.split(' ');
+    let firstIn = nameParts[0][0];
+    let lastIn = nameParts[0][1];
+    let result = `${firstIn}.${lastIn}.toUpperCase`
+  }
