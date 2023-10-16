@@ -662,12 +662,13 @@ function reverseList(list) {
   //redo the answer since I had to ask chatGPT
   function abbrevName(name){
     let nameParts = name.split(' ');
-    let firstIn = nameParts[0][0];
-    let lastIn = nameParts[0][1];
-    let result = `${firstIn}.${lastIn}`.toUpperCase()
+    let firstIntial = nameParts[0][0];
+    let lastInitial = nameParts[0][1];
+    let result = `${firstInitial}.${lastInitial}`.toUpperCase()
   }
 
   //shorter & easier read code for above
 function abbrevName(name){
   let nameParts = name.split(' ');
   return (nameParts[0][0] + "." + nameParts[1][0]).toUpperCase; 
+
