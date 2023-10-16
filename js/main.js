@@ -671,4 +671,4 @@ function reverseList(list) {
 function abbrevName(name){
   let nameParts = name.split(' ');
   return (nameParts[0][0] + "." + nameParts[1][0]).toUpperCase; 
-
+}
