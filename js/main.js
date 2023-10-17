@@ -672,3 +672,25 @@ function abbrevName(name){
   let nameParts = name.split(' ');
   return (nameParts[0][0] + "." + nameParts[1][0]).toUpperCase; 
 }
+
+//class 45 10/16
+
+//task
+
+//Answer I DO NOT GET:
+function points(games) {
+  let totalPoints = 0;
+
+  for (const result of games) {
+    const [x, y] = result.split(":").map(Number);
+
+    if (x > y) {
+      totalPoints += 3; // Win
+    } else if (x === y) {
+      totalPoints += 1; // Tie
+    }
+    // If x < y, no points are added (loss).
+  }
+
+  return totalPoints;
+}
