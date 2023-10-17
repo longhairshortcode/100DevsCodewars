@@ -686,7 +686,11 @@ Examples
 don't worry about uppercase vowels
 y is not considered a vowel for this kata
 
-//Answer I DO NOT GET:
+//Answer I havented looked at yet
+function shortcut(input) {
+  // Use a regular expression to match and remove lowercase vowels
+  return input.replace(/[aeiou]/g, '');
+}
 
 
 //task
