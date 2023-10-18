@@ -692,6 +692,9 @@ function shortcut(input) {
   return input.replace(/[aeiou]/g, '');
 }
 
+function shortcut(input){
+  return input.replace(/aeiou/g, "");
+}
 
 //task:
 // Our football team has finished the championship.
