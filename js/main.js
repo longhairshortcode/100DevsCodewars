@@ -686,7 +686,7 @@ function abbrevName(name){
 // don't worry about uppercase vowels
 // y is not considered a vowel for this kata
 
-//Answer I havented looked at yet
+//Answer I now get
 function shortcut(input) {
   // Use a regular expression to match and remove lowercase vowels
   return input.replace(/[aeiou]/g, '');
@@ -731,4 +731,18 @@ function points(games) {
   }
 
   return totalPoints;
+}
+
+//redid it for practice
+function points(games) {
+  let total = 0
+  for (let result of games){
+    let [x, y] = result.split(":").map(Number)
+    if (x > y){
+      total += 3
+    }else if (x === y) {
+      total += 1
+    }
+  }
+  return total
 }
