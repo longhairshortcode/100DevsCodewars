@@ -754,7 +754,6 @@ function points(games) {
 //answer
 
 //answer 
-function isTriangle(a,b,c)
-{
-   return false;
+function isTriangle(a,b,c){
+  return (a + b > c && b + c > a && a + c > b )
 }
