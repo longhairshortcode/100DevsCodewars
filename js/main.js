@@ -712,11 +712,11 @@ function shortcut(input) {
 // our team always plays 10 matches in the championship
 // 0 <= x <= 4
 // 0 <= y <= 4
-////Answer I DO NOT GET:
+////Answer I kind of get but it is still a little hard and I should review:
 function points(games) {
   let totalPoints = 0;
 
-  for (const result of games) {
+  for (let result of games) {
     const [x, y] = result.split(":").map(Number);
 
     if (x > y) {
