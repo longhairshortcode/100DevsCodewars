@@ -824,16 +824,4 @@ function sumArray(array) {
   }
   
 
-  // another answer that Chat says is correct but the tests are not working:
-  function sumArray(array) {
-    if (array === null || array === undefined || array.length <= 1){
-      return 0;
-    }
-      let min = Math.min(...array)
-      let max = Math.max(...array)
-      
-      let array1 = array.filter(value => value !== min && value !== max)
-      
-      let total = array1.reduce((acc, cur) => acc + cur, 0);
-      return total;  
-    }
+  
