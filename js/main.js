@@ -847,7 +847,7 @@ function sumArray(array) {
     'a lot',
     'passionately',
     'madly',
-    'not at all',S
+    'not at all, sorry',S
     ] 
     
     return phrases[(numOfPetals - 1) % phrases.length]
