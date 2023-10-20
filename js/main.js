@@ -840,15 +840,15 @@ function sumArray(array) {
 
 //answer
 
-  function howMuchILoveU(numPetals) {
+  function howMuchILoveU(numOfPetals) {
     let phrases = [
-      'I love you',
+      'I love you!',
     'a little',
     'a lot',
     'passionately',
     'madly',
-    'not at all',
+    'not at all',S
     ] 
     
-    return phrases[(numPetals - 1) % phrases.length]
+    return phrases[(numOfPetals - 1) % phrases.length]
 }
