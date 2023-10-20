@@ -840,7 +840,7 @@ function sumArray(array) {
 
 //answer
 
-  function howMuchILoveYou(nPetals) {
+  function howMuchILoveU(nPetals) {
     let phrases = [
       'I love you',
     'a little',
