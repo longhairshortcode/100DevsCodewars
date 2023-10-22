@@ -930,3 +930,19 @@ class Kata {
 const areaOrPerimeter = function(l , w) {
   return l === w ? l * w : 2 * l + 2 * w;
 }
+
+//task 1 10/20 class 38 redo
+// Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
+//answer
+function doubleChar(str) {
+  let results = "";
+  for (let i = 0; i < str.length; i++){
+    results += str[i] + str[i]
+  }
+  return results; 
+}
+
+//Another Answer from CW that I get 
+function doubleChar(str) {
+  return str.replace(/(.)/g, "$1$1")
+}
