@@ -973,7 +973,7 @@ function saleHotdogs(n) {
   : (n >= 10) ? (n * 90)
 }
   
-//task 3 10/12
+//task 3 10/21
 // I created this function to add five to any number that was passed in to it and return the new value. It doesn't throw any errors but it returns the wrong number.
 
 // Can you help me fix the function?
@@ -982,4 +982,19 @@ function saleHotdogs(n) {
 //function addFive(num) {
   let total = num + 5
   return total
+}
+
+//task 4 10/21
+// Numbers ending with zeros are boring.
+// They might be fun in your world, but not here.
+// Get rid of them. Only the ending ones.
+// 1450 -> 145
+// 960000 -> 96
+// 1050 -> 105
+// -1050 -> -105
+// Zero alone is fine, don't worry about it. Poor guy anyway
+
+//answer
+function noBoringZeros(n) {
+  return +n.toString().replace(/0+$/, "");
 }
