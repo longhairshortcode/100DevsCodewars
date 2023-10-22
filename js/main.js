@@ -1028,3 +1028,17 @@ function findMultiples(integer,limit){
     
   return result
 }
+
+
+//Answer
+function digitize(n) {
+  let nStr = n.toString();
+  let myArr = [];
+  let reverseArr = nStr.split('').reverse();
+
+  for (let i = 0; i < reverseArr.length; i++) {
+    myArr.push(Number(reverseArr[i]));
+  }
+
+  return myArr;
+}
