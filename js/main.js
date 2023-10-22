@@ -847,8 +847,86 @@ function sumArray(array) {
     'a lot',
     'passionately',
     'madly',
-    'not at all, sorry!!!',S
+    'not at all, sorry!!!',
     ] 
     
     return phrases[(numOfPetals - 1) % phrases.length]
+}
+
+
+//task 1 10/20
+// Your task is to create a function that does four basic mathematical operations.
+
+// The function should take three arguments - operation(string/char), value1(number), value2(number).
+// The function should return result of numbers after applying the chosen operation.
+
+//answer:
+function basicOp(operation, value1, value2){
+  if (operation === "+"){
+      return value1 + value2;
+      }else if (operation === "-"){
+       return value1 - value2; 
+      }else if (operation === "*"){
+      return value1 * value2;
+      }else if (operation === "/" ){
+      } return value1 / value2;  
+}
+
+
+//task 2 10/20
+// Your task is to create a function that does four basic mathematical operations.
+
+// The function should take three arguments - operation(string/char), value1(number), value2(number).
+// The function should return result of numbers after applying the chosen operation.
+//answer
+function basicOp(operation, a, b){
+  switch (operation){
+      case "+":
+      return a + b;
+      break;
+      case "-":
+      return a - b;
+      break;
+      case "*":
+      return a * b;
+      break;
+      case "/":
+      return a / b;
+      break;
+  }
+}
+
+//task 3 10/20
+// Create a function that gives a personalized greeting. This function takes two parameters: name and owner.
+
+// Use conditionals to return the proper message:
+
+//answer
+function greet (name, owner) {
+ return name === owner ? "Hello boss" : "Hello guest";
+}
+
+//task 4 10/20
+//Bob needs a fast way to calculate the volume of a cuboid with three values: the length, 
+//width and height of the cuboid. Write a function to help Bob with this calculation.
+
+//answer got the answer minus the class & static which I don't get fully
+class Kata {
+  static getVolumeOfCuboid(l, w, h) {
+    return l * w * h;
+  }
+};
+
+//task 5 10/20
+// You are given the length and width of a 4-sided polygon. The polygon can either be a 
+// rectangle or a square. If it is a square, return its area. If it is a rectangle, return 
+// its perimeter. Example(Input1, Input2 --> Output):
+// 6, 10 --> 32
+// 3, 3 --> 9
+// Note: for the purposes of this kata you will assume that it is a square if its length and 
+// width are equal, otherwise it is a rectangle.
+
+//answer
+const areaOrPerimeter = function(l , w) {
+  return l === w ? l * w : 2 * l + 2 * w;
 }
