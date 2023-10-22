@@ -1020,10 +1020,10 @@ function findMultiples(integer, limit) {
 }
 
 //another CW answer that seems easier
-function findMultiples(int,limit){
+function findMultiples(integer,limit){
   let result = []
   
-  for (let i = int; i<=limit ; i+=int)
+  for (let i = integer; i<=limit ; i+=int)
     result.push(i)
     
   return result
