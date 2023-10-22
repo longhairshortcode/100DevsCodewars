@@ -946,3 +946,30 @@ function doubleChar(str) {
 function doubleChar(str) {
   return str.replace(/(.)/g, "$1$1")
 }
+
+//task 2 w multiple answers 10/21
+//Complete function saleHotdogs/SaleHotDogs/sale_hotdogs, function accepts 1 parameter:n, n is 
+//the number of hotdogs a customer will buy, different numbers have different prices (refer to 
+//the following table), return how much money will the customer spend to buy that number of hotdogs.
+//Answers I get
+function saleHotdogs(n){
+  if (n < 5){
+    return n * 100
+  }else if (n < 10){
+    return n * 95
+  } else if (n >= 10){
+    return n * 90
+  }
+}
+
+function saleHotdogs(n) {
+  return n < 5 ? n * 100 : n < 10 ? n * 95 : n * 90;
+}  
+
+  
+  function saleHotdogs(n){
+  return (n < 5) ? (n * 100)
+  : (n < 10) ? (n * 95)
+  : (n >= 10) ? (n * 90)
+}
+  
