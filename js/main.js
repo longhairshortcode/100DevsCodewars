@@ -1030,7 +1030,7 @@ function findMultiples(integer,limit){
 }
 
 
-//Answer
+//Answer correct
 function digitize(n) {
   let nStr = n.toString();
   let myArr = [];
@@ -1042,3 +1042,12 @@ function digitize(n) {
 
   return myArr;
 }
+
+//answer wrong that i got before above, review it!
+function digitize(n) {
+  let nStr = n.toString()
+ let arr = []
+ let reverseIt = n.reverse()
+ for (let i = 0; i < reverseIt.length; i++)
+ return arr.push(reverseIt[i]);
+ }
