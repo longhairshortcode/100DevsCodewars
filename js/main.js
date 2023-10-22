@@ -1030,6 +1030,13 @@ function findMultiples(integer,limit){
 }
 
 
+
+
+
+//Task 3 10/22
+//Given a random non-negative number, you have to return the digits of this
+//number within an array in reverse order.
+
 //Answer correct
 function digitize(n) {
   let nStr = n.toString();
@@ -1047,7 +1054,7 @@ function digitize(n) {
 function digitize(n) {
   let nStr = n.toString()
  let arr = []
- let reverseIt = n.reverse()
- for (let i = 0; i < reverseIt.length; i++)
- return arr.push(reverseIt[i]);
+ let reverseArr = n.reverse()
+ for (let i = 0; i < reverseArr.length; i++)
+ return arr.push(reverseArr[i]);
  }
