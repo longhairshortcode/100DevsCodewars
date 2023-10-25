@@ -1106,6 +1106,11 @@ String.prototype.isUpperCase = function() {
  }
 
 
+ //another answer 
+ String.prototype.isUpperCase = function() {
+  return this.toString() === this.toString().toUpperCase();
+};
+
  //task 3 10/25 Class 39
 
 //answer
