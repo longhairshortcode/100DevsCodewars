@@ -1067,9 +1067,19 @@ They might be fun in your world, but not here.
 
 Get rid of them. Only the ending ones.
 //answer
+function noBoringZeros(number) {
+  return +number.toString().replace(/0+$/, '');
+}
  
 
-
+//other answer from cw that I get but need to review
+function noBoringZeros(n) {
+  // this checks that last number is zero and that n as a whole isn't 0
+  while(n%10==0 && n!=0){
+  // this removes the last 0   
+    n/=10;}
+  return n;
+}
 
  //task 2 10/25 Class 39
 
