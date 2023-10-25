@@ -1112,8 +1112,16 @@ String.prototype.isUpperCase = function() {
 };
 
  //task 3 10/25 Class 39
+ //You will be given an array and a limit value. You must check that all values in the array 
+ //are below or equal to the limit value. If they are, return true. Else, return false.
+//You can assume all values in the array are numbers.
 
 //answer
+function smallEnough(a, limit){
+  let filteredArr = a.filter(val => val <= limit)
+    return a.length === filteredArr.length;
+    
+  }
 
  //task 4 10/25 Class 39
 
