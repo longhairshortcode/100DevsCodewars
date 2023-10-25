@@ -1123,6 +1123,11 @@ function smallEnough(a, limit){
     
   }
 
+  //other answer from chat that I get
+  function smallEnough(a, limit) {
+    return a.every(val => val <= limit);
+  }
+
  //task 4 10/25 Class 39
 
 //answer
