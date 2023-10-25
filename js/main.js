@@ -1059,4 +1059,31 @@ function digitize(n) {
  return arr.push(reverseArr[i]);
  }
 
+
+ //task 1 10/25 Class 39
+ Numbers ending with zeros are boring.
+
+They might be fun in your world, but not here.
+
+Get rid of them. Only the ending ones.
+//answer
  
+
+
+
+ //task 2 10/25 Class 39
+
+//answer
+
+
+ //task 3 10/25 Class 39
+
+//answer
+
+ //task 4 10/25 Class 39
+
+//answer
+
+ //task 5 10/25 Class 39
+
+//answer
