@@ -1084,3 +1084,12 @@ function digitize(n) {
  for (let i = 0; i < reverseArr.length; i++)
  return arr.push(reverseArr[i]);
  }
+
+ //answer wrong that i got before above, review it!
+function digitize(n) {
+  let nStr = n.toString()
+ let arr = []
+ let reverseArr = n.reverse()
+ for (let i = 0; i < reverseArr.length; i++)
+ return arr.push(reverseArr[i]);
+ }
