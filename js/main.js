@@ -1135,3 +1135,15 @@ function smallEnough(a, limit){
  //task 5 10/25 Class 39
 
 //answer
+
+
+//1st task class 39 10/27
+//The starship Enterprise has run into some problem when creating a program to greet 
+// everyone as they come aboard. It is your job to fix the code and get the program working again!
+// Example output:
+// Hello, Mr. Spock
+
+//answer
+function sayHello(name) {
+  return `Hello, ${name}`
+}
