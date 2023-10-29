@@ -1162,3 +1162,8 @@ function sayHello(name) {
 function addNumToString(array) {
   return array.map((str, index) => `${index + 1}: ${str}`);
 }
+
+//answer again
+function addNumToString(array) {
+  return array.map((str, index) => `${index + 1}: ${str}`);
+}
