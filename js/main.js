@@ -1177,9 +1177,20 @@ function sumMix(x){
   return x.reduce((acc, cur) => acc + Number(cur), 0)
 }
  
+//another answer from CW that I get
+function sumMix(x){
+  return x.map(a => +a).reduce((a, b) => a + b);
+}
 
 //2nd task class 40 10/30
+// Write a function that takes a list of strings as an argument and returns a filtered list containing 
+// the same elements but with the 'geese' removed. The geese are any strings in the following array, 
+// which is pre-populated in your solution
 //answer
+function gooseFilter (birds) {
+  const geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]; 
+    return birds.filter(bird => !geese.includes(bird));
+};
 
 
 //3rd task class 40 10/30
