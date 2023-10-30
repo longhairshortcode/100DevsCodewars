@@ -1167,3 +1167,20 @@ function addNumToString(array) {
 function addNumToString(array) {
   return array.map((str, index) => `${index + 1}: ${str}`);
 }
+
+// //1st task class 40 10/30
+// Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
+
+// Return your answer as a number.
+//answer
+function sumMix(x){
+  return x.reduce((acc, cur) => acc + Number(cur), 0)
+}
+ 
+
+//2nd task class 40 10/30
+//answer
+
+
+//3rd task class 40 10/30
+//answer
