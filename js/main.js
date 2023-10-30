@@ -1192,6 +1192,12 @@ function gooseFilter (birds) {
     return birds.filter(bird => !geese.includes(bird));
 };
 
+//other cw answer that  I get
+function gooseFilter (birds) {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  return birds.filter( bird => geese.indexOf(bird) < 0 );
+};
+
 
 //3rd task class 40 10/30
 //answer
