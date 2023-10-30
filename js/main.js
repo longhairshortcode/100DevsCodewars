@@ -1210,3 +1210,11 @@ function combat(health, damage) {
     return 0;
   }
   }
+
+
+  //answer
+  function reverseLetter(str) {
+    let letterStr = str.replace(/[^a-zA-Z]/g, "");
+    let reverseStr = letterStr.split('').reverse().join(''); 
+    return reverseStr;
+  }
