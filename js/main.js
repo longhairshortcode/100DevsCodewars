@@ -1211,10 +1211,23 @@ function combat(health, damage) {
   }
   }
 
+  //4th task class 40 10/30
+  // Given a string str, reverse it and omit all non-alphabetic characters.
 
+  // Example
+  // For str = "krishan", the output should be "nahsirk".
+  
+  // For str = "ultr53o?n", the output should be "nortlu".
   //answer
   function reverseLetter(str) {
     let letterStr = str.replace(/[^a-zA-Z]/g, "");
     let reverseStr = letterStr.split('').reverse().join(''); 
     return reverseStr;
+  }
+
+  //other cw answer that  Idont get yet:
+  function reverseLetter(str) {
+    //coding and coding..
+    return str.match(/[a-z]/ig).reverse().join('');
+    
   }
