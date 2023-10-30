@@ -1200,4 +1200,13 @@ function gooseFilter (birds) {
 
 
 //3rd task class 40 10/30
+// Create a combat function that takes the player's current health and the amount of
+// damage recieved, and returns the player's new health. Health can't be less than 0.
 //answer
+function combat(health, damage) {
+  if (health >= 0 && damage < health){
+    return health - damage; 
+  }else{
+    return 0;
+  }
+  }
