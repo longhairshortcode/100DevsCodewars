@@ -1250,8 +1250,4 @@ function plural(n) {
   return n == 1 ? false : true
 }
 
-//answer
-function plural(n) {
-  return n == 1 ? false : true
-}
 
