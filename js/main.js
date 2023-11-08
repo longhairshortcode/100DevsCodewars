@@ -1246,8 +1246,16 @@ function plural(n) {
 }
 
 
+//task 11/7
 
 //answer
-function plural(n) {
-  return n == 1 ? false : true
+function peopleOnBus(busStops) {
+  let totalPeople = 0;
+
+  for (let i = 0; i < busStops.length; i++) {
+    totalPeople += busStops[i][0];  // Number of people getting on
+    totalPeople -= busStops[i][1];  // Number of people getting off
+  }
+
+  return totalPeople;
 }
