@@ -1269,17 +1269,7 @@ function peopleOnBus(busStops) {
 
   return totalPeople;
 }
-//copy answer
-function peopleOnBus(busStops) {
-  let totalPeople = 0;
 
-  for (let i = 0; i < busStops.length; i++) {
-    totalPeople += busStops[i][0];  // Number of people getting on
-    totalPeople -= busStops[i][1];  // Number of people getting off
-  }
-
-  return totalPeople;
-}
 
 
 
