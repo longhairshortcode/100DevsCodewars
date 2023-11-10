@@ -1281,7 +1281,16 @@ var number = function(busStops){
   return passengers;
 }
 
-
+// 11-9-23
+//task
+// Given a random non-negative number, you have to return the 
+// digits of this number within an array in reverse order.
+//answer
+function digitize(n) {
+  let nArr = Array.from(String(n), Number);
+  let revArr = nArr.reverse();
+  return revArr;
+}
 
 
 
