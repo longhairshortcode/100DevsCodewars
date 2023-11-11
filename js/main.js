@@ -1311,14 +1311,3 @@ function stringToArray(string){
   return string.split(" ")
 }
 
-function pipeFix(numbers){
-  let addOne = numbers.map(num, i => {
-    if (num[i])
-  })
-  }
-
-  function pipeFix(numbers){
-    let addOne = numbers.map(num, i => {
-      if (num[i])
-    })
-    }
