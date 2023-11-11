@@ -1316,3 +1316,9 @@ function pipeFix(numbers){
     if (num[i])
   })
   }
+
+  function pipeFix(numbers){
+    let addOne = numbers.map(num, i => {
+      if (num[i])
+    })
+    }
