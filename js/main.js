@@ -1311,9 +1311,9 @@ function stringToArray(string){
   return string.split(" ")
 }
 
-
-
-
+//COPY task 11/10
+//Write a function to split a string and convert it into an array of words.
+//answer
 function stringToArray(string){
   return string.split(" ")
 }
