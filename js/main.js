@@ -1313,7 +1313,3 @@ function stringToArray(string){
 
 
 
-
-function stringToArray(string){
-  return string.split(" ")
-}
