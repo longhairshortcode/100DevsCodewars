@@ -1316,6 +1316,4 @@ function stringToArray(string){
 function stringToArray(string){
   return string.split(" ")
 }
-function stringToArray(string){
-  return string.split(" ")
-}
+
