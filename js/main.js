@@ -1419,7 +1419,6 @@ function strCount(str, letter){
   //REDO from the beginning of ththis CW file:::::::::::::::::::
 
   //(REDO ON 11/14)  Class 36 - 9/26/23
-
 //Task (7kyu)
 // You are given an odd-length array of integers, in which all of them are the same, except for one single number.
 
@@ -1448,3 +1447,29 @@ function stray(numbers) {
 // someone else's answer I sorta get but not really since XOR is weird 
 
 function strayNum = nums => nums.reduce((a, b) => a ^ b);
+
+  //REDO from the beginning of this CW file:::::::::::::::::::
+  //(REDO ON 11/14)  Class 36 - 9/26/23
+//Task (8kyu)
+//     Your function takes two arguments:
+
+//     current father's age (years)
+//     current age of his son (years)
+// Сalculate how many years ago the father was twice as old as his son 
+//(or in how many years he will be twice as old). The answer is always 
+//greater or equal to 0, no matter if it was in the past or it is in the future.
+
+function twiceAsOld(dad, son){
+let twiceS = son * 2
+let dadTwice = dad - twiceS
+return Math.abs(dadTwice) 
+}
+
+
+
+
+
+//Answer
+
+function twiceAsOld(dad, son){
+  return Math.abs(dad - son * 2);
