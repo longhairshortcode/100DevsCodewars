@@ -1402,3 +1402,8 @@ function strCount(str, letter){
     }
     return count;
   }
+
+  //otheer CW answer that is hard but I kind of get
+  function strCount(str, letter){  
+    return str.split(letter).length-1
+  }
