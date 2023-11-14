@@ -1352,7 +1352,7 @@ function greet(language) {
     ["italian", "Benvenuto"],
     ["latvian", "Gaidits"],
     ["lithuanian", "Laukiamas"],
-    ["polish", "Witamy"],
+    ["polish", "Witamy"], 
     ["spanish", "Bienvenido"],
     ["swedish", "Valkommen"],
     ["welsh", "Croeso"]
@@ -1362,4 +1362,12 @@ function greet(language) {
   }else{
     return "Welcome"
   }
+}
+
+]);
+if (langDB.has(lowerLang)){
+  return langDB.get(lowerLang)
+}else{
+  return "Welcome"
+}
 }
