@@ -1445,6 +1445,6 @@ function stray(numbers) {
  }
 
 
-// someone else's answer I get now
+// someone else's answer I sorta get but not really since XOR is weird 
 
-function strayDos = nums => nums.reduce((a, b) => a ^ b);
+function strayNum = nums => nums.reduce((a, b) => a ^ b);
