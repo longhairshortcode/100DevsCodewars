@@ -1370,3 +1370,10 @@ if (langDB.has(lowerLang)){
   return "Welcome"
 }
 }
+]);
+if (langDB.has(lowerLang)){
+  return langDB.get(lowerLang)
+}else{
+  return "Welcome"
+}
+}
