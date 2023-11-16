@@ -7,3 +7,9 @@ function findSmallestInt(args) {
   let minArg = Math.min(...args);
   return minArg;
 }
+
+//shorter version:
+function findSmallestInt(args) {
+    return Math.min(...args)
+  }
+}
