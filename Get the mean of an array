@@ -10,3 +10,8 @@ function getAverage(marks){
   let addAndDiv = marks.reduce((acc, cur) => acc + cur)/marks.length;
   return Math.floor(addAndDiv);
 }
+
+//another's answer that I get to shorted mine
+function getAverage(marks){
+  return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
+}
