@@ -43,5 +43,6 @@ function sumOfDifferences(arr) {
 //Subtracting the minimum value from the maximum value effectively considers the entire range of the array.
 //The logic is more intuitive when you visualize the array sorted in descending order. The largest element comes first, and subtracting the 
 //smallest element (which is now at the end) accounts for all the differences between consecutive pairs.
-//While it's not necessary to memorize this as a formal mathematical rule, understanding these relationships can be helpful when solving problems 
+//While it's not necessary to memorize this as a formal mathematical rule, understanding these relationships can be helpful when solving problems
+//or optimizing code in a programming context. It's more about gaining familiarity with common patterns and approaches in problem-solving.
 
