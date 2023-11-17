@@ -8,3 +8,11 @@ function mergeArrays(a, b) {
   let togetherSort = together.sort((a, b) => a - b)
   return togetherSort = [...new Set(togetherSort)]
 }
+
+//answer next day
+
+function mergeArrays(a, b) {
+  let mergArr = a.concat(b);
+  let sortMerg = mergArr.sort((num1, num2) => num1 - num2)
+  return sortMerg = [...new Set(sortMerg)]
+}
