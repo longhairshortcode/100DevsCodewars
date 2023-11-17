@@ -33,4 +33,15 @@ function sumOfDifferences(arr) {
 //rather an observation based on how sorting and subtraction work. 
 //Here's a breakdown:
 //Sorting:
+//Sorting an array in ascending or descending order arranges its elements in a specific sequence.
+//Consecutive Pairs:
+//When you have a sorted array, subtracting each element from its adjacent element gives you the differences between consecutive pairs.
+//Min and Max:
+//In a sorted array, the minimum value is at one end (e.g., the first element for ascending order, the last element for descending order), 
+//and the maximum value is at the opposite end.
+//Subtracting Min from Max:
+//Subtracting the minimum value from the maximum value effectively considers the entire range of the array.
+//The logic is more intuitive when you visualize the array sorted in descending order. The largest element comes first, and subtracting the 
+//smallest element (which is now at the end) accounts for all the differences between consecutive pairs.
+//While it's not necessary to memorize this as a formal mathematical rule, understanding these relationships can be helpful when solving problems 
 
