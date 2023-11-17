@@ -28,3 +28,9 @@ function sumOfDifferences(arr) {
 }
 
 //explanation:
+//The concept here is more related to understanding the properties of sorted arrays and the relationships between the minimum, 
+//maximum, and differences in consecutive pairs. It's not necessarily a formal mathematical rule that you need to memorize but 
+//rather an observation based on how sorting and subtraction work. 
+//Here's a breakdown:
+//Sorting:
+
