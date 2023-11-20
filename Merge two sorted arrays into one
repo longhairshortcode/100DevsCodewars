@@ -53,3 +53,11 @@ function mergeArrays(arr1, arr2){
   }let concatTwo = arr1.concat(arr2).sort((a, b) => a - b);
   return [...new Set(concatTwo)]
 }
+
+//asnwer again 11/18/23
+function mergeArrays(arr1, arr2){
+  if (arr1.length === 0 && arr2.length === 0){
+    return []
+  }let concatTwo = arr1.concat(arr2).sort((a, b) => a - b);
+  return [...new Set(concatTwo)]
+}
