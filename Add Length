@@ -20,3 +20,8 @@ function addLength(str){
 }
 
 
+//another shorter answer from cw
+function addLength(str){
+  return str.split(" ").map(s => `${s} ${s.length}`)
+}
+
