@@ -18,7 +18,7 @@ function stringy(size) {
   return result;
 }
 
-//another answer from CW
+//another answer from codewars
 function stringy(size) {
   string = "";
   for (var i = 0; i < size; i++) {
