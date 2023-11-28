@@ -17,3 +17,15 @@ function stringy(size) {
 
   return result;
 }
+
+//another answer from CW
+function stringy(size) {
+  string = "";
+  for (var i = 0; i < size; i++) {
+    if(i % 2 == 0)
+      string += "1";
+    else
+      string += "0";
+  }
+  return string;
+}
