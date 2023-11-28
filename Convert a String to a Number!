@@ -10,3 +10,18 @@
 const stringToNumber = function(str){
   return Number(str);
 }
+
+//Another Answer
+const stringToNumber = function(str){
+  return +str;
+}
+
+//Another Answer after that
+const stringToNumber = function(str){
+  return str * 1;
+}
+
+//Another Answer after that one
+const stringToNumber = function(str){
+  return parseInt(str);
+}
