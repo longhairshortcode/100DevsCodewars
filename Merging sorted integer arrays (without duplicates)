@@ -9,3 +9,10 @@ function mergeArrays(a, b) {
   return [...new Set(sortedArr)];
 
 }
+
+//Other Answer with spread op to join arrays
+function mergeArrays(a, b) {
+  let joinArr = [...a,...b]
+  let joinNSort = joinArr.sort((a, b) => a - b)
+  return noDup = [...new Set(joinNSort)]
+}
