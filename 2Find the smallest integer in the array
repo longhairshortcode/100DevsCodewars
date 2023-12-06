@@ -13,3 +13,10 @@ class SmallestIntegerFinder {
     return Math.min(...args)
   }
 }
+
+//Answer
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min(...args)
+  }
+}
