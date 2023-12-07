@@ -1,0 +1,41 @@
+//Task
+//Write a function that can return the smallest value of an array or the index of that value. The function's 2nd parameter will tell whether it should return the value or the index.
+//Assume the first parameter will always be an array filled with at least 1 number and no duplicates. Assume the second parameter will be a string holding one of two values: 'value' and 'index'.
+
+//Answer
+function min(arr, toReturn) {
+  if (toReturn === 'value'){
+    return Math.min(...arr)
+  }else{
+    if (toReturn === 'index'){
+      let smally = arr.indexOf(Math.min(...arr))
+      return smally
+    }
+  }
+}
+
+//Parameters:
+
+//1st Param
+//arr always numbers
+// never empty, at least 1 num
+//no duplicates
+
+
+//2nd Param
+//always a string of 'value' || 'index'
+
+//Return:
+// if value of smallest, the value as a num
+// if index of smallest, the index of the num
+
+//Examples:
+
+//min([3, 2, 1], 'value') => 1 
+//min([3, 2, 2], 'index') => 2
+
+//Psedo Code:
+
+// if toReturn === 'value' then ...
+// if toReturn === 'index' then ....
+//...Math.min()
