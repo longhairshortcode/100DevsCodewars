@@ -24,3 +24,13 @@ function repeats(arr) {
   return result;
 }
 
+//Answer
+function repeats(arr) {
+  // Use filter to get an array containing only the numbers that occur once
+  let noDoubles = arr.filter((num) => arr.indexOf(num) === arr.lastIndexOf(num));
+
+  // Use reduce to sum the numbers in the filtered array
+  let result = noDoubles.reduce((sum, num) => sum + num);
+
+  return result;
+}
