@@ -9,10 +9,4 @@ function remove(string) {
 }
 
 
-//Answer:
-function remove(string) {
-      let fixedStr = string.replace(/!/g, "")
-    return fixedStr + "!";  
-}
-
 
