@@ -1,5 +1,9 @@
 //Task
 
 //My answer that should be right but erroring prob because of mistake on their testing:
+function getNumberFromString(s) {
+  return Number(s.replace(/[a-zA-Z]/g, ""));
+}
+
 
 //Answer that passed test
