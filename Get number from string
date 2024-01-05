@@ -12,10 +12,6 @@ function getNumberFromString(s) {
   return Number(s.replace(/\D/g, ""));
 }
 
-//Answer that passed test
-function getNumberFromString(s) {
-  return Number(s.replace(/\D/g, ""));
-}
 
 
 
