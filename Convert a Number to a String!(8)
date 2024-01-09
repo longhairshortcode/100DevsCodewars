@@ -5,3 +5,16 @@
 function numberToString(num) {
 return num.toString()
 }
+
+//Othes' answers:
+
+function numberToString(num) {
+  // Return a string of the number here!
+  return String(num);
+}
+
+function numberToString(num) {
+  return ''+num;
+}
+
+const numberToString = num => `${num}`;
