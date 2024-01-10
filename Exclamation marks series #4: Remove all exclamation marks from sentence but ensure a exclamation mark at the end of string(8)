@@ -12,3 +12,8 @@ function remove(string) {
     return string.replace(/!/g, "") + "!";
   }
 }
+
+//someone else's answer
+function remove(s){
+  return s.replace(/!/g, '') + "!"
+}
