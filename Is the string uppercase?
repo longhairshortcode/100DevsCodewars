@@ -14,8 +14,7 @@ String.prototype.isUpperCase = function() {
 return this.toString() === this.toString().toUpperCase()
 }
 
-//Task
-Create a method to see whether the string is ALL CAPS.
+
 
 
 
