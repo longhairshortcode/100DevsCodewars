@@ -31,7 +31,7 @@ function contamination(text, char){
     for (let i = 0; i < text.length; i++){
        results += char
     }
-  } return results; 
+  } return results 1; 
 }
 
 
