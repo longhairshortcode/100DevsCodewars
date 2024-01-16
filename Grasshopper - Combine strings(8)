@@ -5,3 +5,8 @@ Create a function named combineNames that accepts two parameters (first and last
 function combineNames(first, last){
   return first + " " + last
 }
+
+//Another answer of mine
+function combineNames(first, last) {
+  return `${first} ${last}`
+}
