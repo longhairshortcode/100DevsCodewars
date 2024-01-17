@@ -5,7 +5,7 @@
 //Output
 //You must output a string containing the two strings with the word ```' are '```
 
-//Answer
+//Answer:
 var templateStrings = function(noun, adjective) {
   return `${noun} are ${adjective}`
 }
