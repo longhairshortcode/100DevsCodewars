@@ -9,3 +9,16 @@
 function reverse(string){
   return string.trim().split(' ').reverse().join(' ');
 }
+
+//Answer 2 (using a for loop but long way)
+function reverse(string) {
+  let wordsArray = string.split(' '); // Split the string into an array of words
+  let reversedArray = [];
+
+  for (let i = wordsArray.length - 1; i >= 0; i--) {
+    reversedArray.push(wordsArray[i]); // Push words in reverse order
+  }
+
+  let result = reversedArray.join(' '); // Join the reversed words into a string
+  return result;
+}
