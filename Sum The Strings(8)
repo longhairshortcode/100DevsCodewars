@@ -10,3 +10,9 @@ return (Number(a) + Number(b)).toString();
 function sumStr(a,b) {
   return String(Number(a)+Number(b));
 }
+
+
+//A  third answer:
+function sumStr(a,b) {
+  return (+a+ +b)+''  
+}
