@@ -5,3 +5,8 @@
 function sumStr(a,b) {
 return (Number(a) + Number(b)).toString();
 }
+
+//Another asnwer:
+function sumStr(a,b) {
+  return String(Number(a)+Number(b));
+}
