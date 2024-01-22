@@ -25,6 +25,11 @@ function sumStr(a,b) {
 function sumStr(a,b) {
   return (+a+ +b)+''  
 }
+
+//A  third answer:
+function sumStr(a,b) {
+  return (+a+ +b)+''  
+}
 //A  third answer:
 function sumStr(a,b) {
   return (+a+ +b)+''  
