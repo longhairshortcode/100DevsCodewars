@@ -6,7 +6,7 @@ function sumStr(a,b) {
 return (Number(a) + Number(b)).toString();
 }
 
-//Another answer:
+//Another answer for this:
 function sumStr(a,b) {
   return String(Number(a)+Number(b));
 }
