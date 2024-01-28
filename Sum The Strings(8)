@@ -17,9 +17,5 @@ function sumStr(a,b) {
   return (+a+ +b)+''  
 }
 
-//A  third answer:1/19/24 1/19/24
-function sumStr(a,b) {
-  return (+a+ +b)+''  
-}
 
 
