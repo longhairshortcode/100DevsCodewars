@@ -1,6 +1,6 @@
 //CODEWARS FOR 100DEVS CLASSES!!
 
-a
+ab
 //Class 36 - 9/26/23
 
 //Task (7kyu)
