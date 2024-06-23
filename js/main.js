@@ -1,6 +1,6 @@
 //CODEWARS FOR 100DEVS CLASSES!!
 
-abcdefghdgtfttytyyttr
+abcdefghdgtfttytyyttrt
 //Class 36 - 9/26/23
 
 //Task (7kyu)
