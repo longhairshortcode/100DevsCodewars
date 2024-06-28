@@ -7,10 +7,3 @@ function mergeArrays(a, b) {
   let mergeNSort = a.concat(b).sort((a, b) => a - b)
   return [...new Set(mergeNSort)]
 }
-dsss
-s
-s
-as
-sssss
-sssss
-ss
